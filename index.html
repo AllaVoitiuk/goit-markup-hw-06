@@ -520,28 +520,46 @@
             </button>
             <form class="form">
                 <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
-                <!-- <div class="form-field">
-                    <label for="name" class="form-label">Имя</label>
-                    <div class="form-field-inner">
-                        <input type="text" class="form-input" name="name" id="name" />
+                <label class="form-label">Имя
+                    <input type="text" class="form-input" name="name" />
+                    <span class="form-icon">
                         <svg class="form-person icon">
-                            <use class="form-icon" href="./img/icons.svg#icon-person-black-18dp-1">
-                        
+                            <use href="./img/icons.svg#icon-person-black-18dp-1">
+                
                             </use>
                         </svg>
-                    </div> -->
-                    <label class="form-label">Имя
-                        <input type="text" class="form-input" name="name" />
-                        <span class="form-icon">
-                            <svg class="form-person icon">
-                                <use href="./img/icons.svg#icon-person-black-18dp-1">
-                        
-                                </use>
-                            </svg>
-                        </span>
-                    </label>
-                    <button type="submit">Отправить</button>
-                </div>
+                    </span>
+                </label>
+                <label class="form-label">Телефон
+                    <input type="tel" class="form-input" name="tel" />
+                    <span class="form-icon">
+                        <svg class="form-person icon">
+                            <use href="./img/icons.svg#icon-phone-black-18dp-1">
+                
+                            </use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="form-label">Почта
+                    <input type="email" class="form-input" name="email" />
+                    <span class="form-icon">
+                        <svg class="form-person icon">
+                            <use href="./img/icons.svg#icon-email-black-18dp-1">
+                
+                            </use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="form-label">
+                    Комментарий
+                    <textarea class="form-feedback" name="feedback" rows="5" placeholder="Введите текст"></textarea>
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" name="consent" value="Соглашаюсь с рассылкой и принимаю" checked />
+                    Соглашаюсь с рассылкой и принимаю
+                    <a href="">Условия договора</a>
+                </label>
+                <button type="submit">Отправить</button>
             </form>
         </div>
         
