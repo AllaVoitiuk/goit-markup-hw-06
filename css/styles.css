@@ -936,12 +936,12 @@ footer {
 }
 
 .form-icon {
-  display: inline-block;
   position: absolute;
   width: 18px;
   height: 18px;
   left: 12px;
   top: 50%;
+  margin-top: 4px;
   transform: translateY(-50%);
   transition: transform 250ms var(--timing-function);
 }
