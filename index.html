@@ -504,6 +504,19 @@
                     </ul>
                 </div>
             </div>
+            <div class="subscription">
+                <h2 class="subscription-title">Подпишитесь на рассылку</h2>
+                <label class="footer-label">E-mail
+                    <input type="email" class="footer-input" name="email" />
+                </label>
+                <button type="submit" class="footer-submit">Подписаться
+                    <svg class="footer-send icon">
+                        <use href="./img/icons.svg#icon-icon-send">
+                    
+                        </use>
+                    </svg>
+                </button>
+            </div>
             
         </div>
     </footer>
@@ -554,10 +567,20 @@
                     Комментарий
                     <textarea class="form-feedback" name="feedback" rows="5" placeholder="Введите текст"></textarea>
                 </label>
-                <label class="checkbox-label">
-                    <input type="checkbox" name="consent" value="Соглашаюсь с рассылкой и принимаю" checked />
-                    Соглашаюсь с рассылкой и принимаю
-                    <a class="checkbox-link" href="">Условия договора</a>
+                <label class="checkbox-field">
+                    <input type="checkbox" class="checkbox-consent" name="consent" /> 
+                    <span class="checkbox-label">
+                        Соглашаюсь с рассылкой и принимаю
+                        <a class="checkbox-link" href="">Условия договора</a>
+                    </span>
+                    <span class="checkbox-icon">
+                        <!-- <svg class="form-person icon">
+                                                                    <use href="./img/icons.svg#icon-icon-check">
+                                                                
+                                                                    </use>
+                                                                </svg>  -->
+                    </span>
+                    
                 </label>
                 <button type="submit" class="button submit">Отправить</button>
             </form>
