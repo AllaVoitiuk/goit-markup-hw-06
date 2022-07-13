@@ -975,7 +975,16 @@ footer {
 }
 
 .checkbox-label {
+  display: block;
   width: 448px;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.checkbox-link {
+  color: var(--color-accent);
+  text-decoration: underline;
 }
 
 .button.submit {
@@ -986,6 +995,7 @@ footer {
   height: 50px;
   padding: 10px 55px;
   margin-top: 30px;
-  cursor: pointer;
+  margin-bottom: 40px;
+  margin-left: 124px;
   border: none;
 }
