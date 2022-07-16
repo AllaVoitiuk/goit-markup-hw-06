@@ -700,7 +700,8 @@ img {
 .social-page {
   width: 20px;
   height: 20px;
-  fill: var(--white-color);
+  fill: var(--color-icon-fill)
+  /* fill: var(--white-color); */
 }
 
 .icon-network {
