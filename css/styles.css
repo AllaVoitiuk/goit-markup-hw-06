@@ -701,7 +701,6 @@ img {
   width: 20px;
   height: 20px;
   fill: var(--color-icon-fill)
-  /* fill: var(--white-color); */
 }
 
 .icon-network {
@@ -762,6 +761,10 @@ footer {
 .social-link.footer:focus {
   background-color: var(--color-accent);
 }
+
+.social-link.footer +.social-page {
+  fill: var(--white-color);
+} 
 
 .footer-adr {
   display: block;
